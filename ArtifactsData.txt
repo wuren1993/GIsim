@@ -1,0 +1,16 @@
+翠绿之影,被怜爱的少女,战狂
+生之花,死之羽,时之沙,空之杯,理之冠
+Atk,Atk%,Def,Def%,Hp,ERecharge,EMastery,CritDmg,CritRate,HealingBonus,Pyro,Anemo,Cryo,Hydro,Geo,Electro,Physical
+
+
+
+
+二级下拉菜单参考
+https://blog.csdn.net/lizhongbin/article/details/1509840?utm_medium=distribute.pc_relevant_t0.none-task-blog-BlogCommendFromMachineLearnPai2-1.channel_param&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-BlogCommendFromMachineLearnPai2-1.channel_param
+
+穷举可能数值
+for a in range(7)
+    for b in range(7)
+        for c in range(7)
+            for d in range(7)
+                if((a+b+c+d)==6)sum=a*[0]+...+d*[3]
